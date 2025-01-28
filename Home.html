@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datacollection 2025</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .button-container {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .green { background-color: #008000; }
+        .blue { background-color: #0000FF; }
+        .yellow { background-color: #FFD700; color: black; }
+        .red { background-color: #FF0000; }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScqPWqqCx4GvU_5QviHH04_7A0D_A54qIIqlbfdiTF6g3tbuw/viewform" class="button green">Reporte de Producción</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdw_uWlHFRA8V_eaN2dcTcdwMy-fXgslZmgPnIYsiBOj52k-g/viewform" class="button blue">Reporte de Restricciones</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfoGt5VxySe130-gQcK8YvyhWkr48CJlnQ5lfDubP42ehJRJQ/viewform" class="button yellow">Solicitud de eliminación de captura INCORRECTA</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqUctmDIFprl0oYRKT1SpFj4jdnx_urj3JsR9xjRipx9QNfA/viewform" class="button red">Reporte Scrap/PNC</a>
+    </div>
+</body>
+</html>
